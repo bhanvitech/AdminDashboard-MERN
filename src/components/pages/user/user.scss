@@ -1,0 +1,14 @@
+.users{
+    
+    display: flex;
+    
+    .usercontainer{
+        background-color: #F7F8FC;
+        flex: 6;
+        
+        .userwidgets{
+            display: flex;
+            margin: 30px;
+        }
+    }
+}

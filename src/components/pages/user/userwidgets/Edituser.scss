@@ -1,0 +1,136 @@
+.editusers{
+    
+    display: flex;
+    
+    .editusercontainer{
+        background-color: #F7F8FC;
+        flex: 6;
+        
+        .edituserwidgets{
+            display: flex;
+            margin: 30px;
+            align-items: center;
+            justify-content: space-between;
+            .userAddButton{
+               background-color: blue;
+                font-weight: 500;
+                padding: 5px;
+                color: white;
+            }
+        }
+        .usercontainer{
+            display: flex;
+            margin-top: 20px;
+            .usershow{
+                flex:1;
+                padding: 20px;
+                -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+                margin-left: 20px;
+                .usershowtop{
+                    display: flex;
+                   align-items: center;
+                   .icon{
+                       width: 40px;
+                       height: 40px;
+                       border-radius: 50%;
+                       object-fit: cover;
+                   }
+                   .profiletitle{
+                       margin-left: 20px;
+                       font-size: 18px;
+                       font-weight: 600;
+                   }
+                }
+                .usershowbottom{
+                    margin-top: 20px;
+                   .usershowinfo{
+                       display: flex;
+                       align-items: center;
+                       margin: 20px 0px;
+                       color:darkgray
+                       .usershowicon{
+                           font-size: 16px !important;
+                            
+                            color: darkslateblue;
+                       }
+                       .userlabel{
+                           font-size: 16px !important;
+                           margin-left: 15px;
+
+                           color: darkslateblue;
+                       }
+                       .usershowdata{
+                           margin-left: 10px;
+                       }
+                   }
+                }
+            }
+            .userupdate{
+                flex:2;
+                padding: 20px;
+                -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+              margin-left: 20px;
+              margin-right: 20px;
+              .userupdatetitle{
+                margin-left: 20px;
+                font-size: 18px;
+                font-weight: 600;    
+              } 
+              .userupdateform{
+                
+               
+                margin: 20px 0px;
+                .inputfields{
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    .userlabel{
+                        font-size: 16px !important;
+                        margin-left: 15px;
+                       
+                        color: darkslateblue;
+                    }
+                    .inputtext{
+                        margin-left: 10px;
+                        margin-right: 20px;
+                     
+                        font-size: 18px;
+                        background-color: transparent;
+                      
+                        color: darkslateblue;
+                        margin-bottom: 10px;
+                        border: none;
+                        padding: 5px;
+                        border-bottom: 1px solid gray;
+                    }
+                    .adminfield{
+                        .userlabel{
+                            font-size: 16px !important;
+                            margin-left: 15px;
+                           
+                            color: darkslateblue;
+                        }
+                        .selectadmin{
+                                margin-left: 20px;
+                                font-size: 16px;
+                                border: none;
+                                background-color: transparent;
+                                border-bottom: 1px solid gray;
+                        }
+                    }
+                    .updatebutton{
+                        background-color: blue;
+                        font-weight: 500;
+                        padding: 5px;
+                        color: white;
+                    }
+                }
+               
+              }
+
+            }
+        }
+    }
+}

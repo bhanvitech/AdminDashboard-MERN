@@ -1,0 +1,52 @@
+.tabs {  
+    display: flex;  
+    border-bottom: solid  rgb(201, 193, 193);
+  }
+  .tab {  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    padding: 2em 0;  
+    border: transparent;
+    
+  }
+  .tab:hover{
+     
+      color: grey;
+      font-weight: bolder;
+  }
+  .tab:not(:last-child) {
+    border-right: 1px transparent;  
+  }
+  .tab.active {
+    color: white;
+    background-color: #6b7ffc;
+    border-bottom: #3751FF;
+    border-radius: 12px 12px 0px 0px;
+    font-weight: bolder;
+  }
+  .panel {
+    display: none;
+   
+    padding: 10px;
+   
+    .widgets,.charts{
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      .widgets:hover{
+          box-shadow: solid 10px ;
+      }
+     
+    }
+    .charts{
+      padding: 5px 20px;
+     
+    }
+    
+    
+  }
+  .panel.active {
+    display: block;
+  }

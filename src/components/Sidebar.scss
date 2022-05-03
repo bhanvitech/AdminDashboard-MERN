@@ -1,0 +1,74 @@
+.sidebar{
+    flex: 1.5;
+    background-color: #363740;
+    min-height: 100vh;
+    color: #DDE2FF;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    .top{
+        padding-top: 41px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .dashboardlogo{
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 24px;
+/* identical to box height */
+
+            letter-spacing: 0.4px;
+
+/* sidebar / gray */
+
+            color: #A4A6B3;
+
+            opacity: 0.7;
+        }
+    }
+    .mid{
+        left: 0px;
+        padding-top: 50px;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 56px;
+            :hover {
+           
+            background-color: rgba(221,226,255, 0.08);
+            cursor: pointer;
+            font-size: 16;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #A4A6B3;
+            }
+            li{
+                width: 255px;
+                    height: 56px;      
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                
+                .hr{
+                        opacity: 0.03;
+                }
+                .iconlist{
+                    margin-left: 45px;
+                    opacity: 0.8;
+                }
+                .span{
+                    opacity: 0.8;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+   
+}

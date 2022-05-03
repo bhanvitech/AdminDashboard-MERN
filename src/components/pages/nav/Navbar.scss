@@ -1,0 +1,35 @@
+.navbar{
+    margin-left: 30px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 18px;
+    .dashboardspan{
+        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        color: #252733;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 12px;
+        width: 100%;
+        .avatar{
+            height: 40px;
+            width: 40px;
+            
+            background-color: #3751FF;
+        }
+        .title{
+            padding-right:14px ;
+        }
+       
+    }
+   
+}
